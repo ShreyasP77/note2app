@@ -10,7 +10,7 @@ const app = express()
 const port = process.env.PORT || 6000;
 console.log(port)
 // Available routes
-var cors = require('cors')
+var cors = require('Cors')
 app.use(cors())
 
 app.use(express.json())
