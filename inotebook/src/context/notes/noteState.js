@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const NoteState = (props) => {
 
-  const host = "https://note-2-app.herokuapp.com/"
+  const host = "https://note-2-app.herokuapp.com:5000/"
   const notesInitial = []
   const [notes, setNotes] = useState(notesInitial)
 
