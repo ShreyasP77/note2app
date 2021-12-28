@@ -1,0 +1,75 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width:1000px) {
+ 
+
+  .tabs {
+    display: none;
+  }
+
+  #hamburger {
+    /* float: right; */
+    /* padding-left: 5rem;  */
+    display: block;
+    font-size:25px;
+    cursor:pointer;
+  }
+
+}
+
+@media (min-width:1000px) {
+  #hamburger {
+    display: none;
+  }
+
+}
+
+#hamburger {
+  padding-left: 5rem;
+  position: absolute;
+  top: 17px;
+  right: 21px;
+  height: 50px;
+}
+
+
+
+i{
+ padding:0 6px; 
+ cursor:pointer;
+}
+
+/* sup{
+  padding-left: 31px;
+} */
+
+.login{
+  padding-left: 5rem;
+  position: absolute;
+  top: 17px;
+  right: 91px;
+  height: 50px;
+
+}
+
+.signUp ,.logout{
+  padding-left: 5rem;
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  height: 50px;
+
+}
