@@ -105,12 +105,12 @@ router.post('/login', [
     }
 
     const auth_token = jwt.sign(data, JWT_SECRET)
-    console.log(auth_token)
-console.log(data)
+   
     success = true
-    console.log(success)
+    
     
     res.json({ success, 'user_id': data.user.id, auth_token })
+    console.log("Login Successful")
   }
   catch (error) {
     console.error(error.message)

@@ -8,7 +8,7 @@
     "build":"cd inotebook && npm run build",
     "install-client":"cd inotebook && npm install",
     "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm run install-client && npm run build",
-    "start": "node index.js"
+    "start": "nodemon index.js"
 
   },
   "author": "Shreyas Parkar",
