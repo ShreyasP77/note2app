@@ -12,7 +12,7 @@ const Signup = (props) => {
 
     const { name, email, password, cpassword } = credentials
     e.preventDefault()
-    const response = await fetch("https://note-2-app.herokuapp.com//api/auth/", {
+    const response = await fetch("https://note-2-app.herokuapp.com/api/auth/", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
