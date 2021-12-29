@@ -12,7 +12,11 @@ const Login = (props) => {
   const handleSubmit = async (e) => {
 
     e.preventDefault()
+<<<<<<< HEAD
     const response = await fetch("https://note-2-app.herokuapp.com/api/auth/login", {
+=======
+    const response = await fetch("http://127.0.0.1:5000/api/auth/login", {
+>>>>>>> 7ba0ff32c1631b0804b617dc16331376d4371a81
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
